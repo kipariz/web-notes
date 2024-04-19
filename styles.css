@@ -76,9 +76,30 @@ header {
   
   /* Modal Content/Box */
   .modal-content {
+    font-size: large;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 55%; /* Could be more or less, depending on screen size */
   }
+
+.mountain-image-and-text{
+    display: flex;
+
+    & .text{
+        padding-left: 3%;
+        padding-right: 1%;
+    }
+
+    & #mountain-image{
+        border-radius: 15px;
+    }
+}
+
+.outer-text{
+    padding-right: 6%;
+}
